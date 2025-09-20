@@ -1,5 +1,7 @@
-﻿evidence/
-security/evidence/
-scan_report*.csv
-__pycache__/
+# Ignore virtual environment in AutoAudit
 .venv/
+venv/
+env/
+**/.venv/
+**/venv/
+**/env/
